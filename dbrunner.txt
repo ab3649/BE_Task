@@ -1,0 +1,6 @@
+start:
+mongod --port 27018 --dbpath "C:\Data2\db"
+
+shutdonw:
+mongosh --port 27018
+db.adminCommand({ shutdown: 1 })
